@@ -4,7 +4,7 @@
 
 ## Introducao
 
-Console aplication efetuando acesso e persistência de dados em uma base SQL através do uso do Framework NHibernate, utilizando as tecnologias:
+Console aplication efetuando CRUD dos dados em uma base SQL através do uso do Framework NHibernate, utilizando as tecnologias:
 
 * C#
 * NHibernate

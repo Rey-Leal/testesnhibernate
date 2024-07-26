@@ -8,4 +8,6 @@ CREATE TABLE Produto
 	quantidade int
 )
 
-SELECT * FROM Produto;
+--SELECT * FROM Produto;
+--DELETE FROM Produto;
+--DBCC CHECKIDENT ('Produto', RESEED, 0);

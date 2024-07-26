@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "E:\\Meus Documentos\\Documents\\Visual Studio 2022\\Projects\\TestesNHibernate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{99306722-D47A-4184-B308-D4F9E1F2AF2E}|TestesNHibernate.csproj|e:\\meus documentos\\documents\\visual studio 2022\\projects\\testesnhibernate\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{99306722-D47A-4184-B308-D4F9E1F2AF2E}|TestesNHibernate.csproj|e:\\meus documentos\\documents\\visual studio 2022\\projects\\testesnhibernate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99306722-D47A-4184-B308-D4F9E1F2AF2E}|TestesNHibernate.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99306722-D47A-4184-B308-D4F9E1F2AF2E}|TestesNHibernate.csproj|E:\\Meus Documentos\\Documents\\Visual Studio 2022\\Projects\\TestesNHibernate\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{99306722-D47A-4184-B308-D4F9E1F2AF2E}|TestesNHibernate.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
@@ -11,16 +15,12 @@
       "RelativeMoniker": "D:0:0:{99306722-D47A-4184-B308-D4F9E1F2AF2E}|TestesNHibernate.csproj|solutionrelative:mappings\\produto.hbm.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99306722-D47A-4184-B308-D4F9E1F2AF2E}|TestesNHibernate.csproj|e:\\meus documentos\\documents\\visual studio 2022\\projects\\testesnhibernate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99306722-D47A-4184-B308-D4F9E1F2AF2E}|TestesNHibernate.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{99306722-D47A-4184-B308-D4F9E1F2AF2E}|TestesNHibernate.csproj|E:\\Meus Documentos\\Documents\\Visual Studio 2022\\Projects\\TestesNHibernate\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{99306722-D47A-4184-B308-D4F9E1F2AF2E}|TestesNHibernate.csproj|solutionrelative:script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{99306722-D47A-4184-B308-D4F9E1F2AF2E}|TestesNHibernate.csproj|E:\\Meus Documentos\\Documents\\Visual Studio 2022\\Projects\\TestesNHibernate\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99306722-D47A-4184-B308-D4F9E1F2AF2E}|TestesNHibernate.csproj|solutionrelative:models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99306722-D47A-4184-B308-D4F9E1F2AF2E}|TestesNHibernate.csproj|E:\\Meus Documentos\\Documents\\Visual Studio 2022\\Projects\\TestesNHibernate\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{99306722-D47A-4184-B308-D4F9E1F2AF2E}|TestesNHibernate.csproj|solutionrelative:script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +38,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "readme.md",
               "DocumentMoniker": "E:\\Meus Documentos\\Documents\\Visual Studio 2022\\Projects\\TestesNHibernate\\readme.md",
               "RelativeDocumentMoniker": "readme.md",
               "ToolTip": "E:\\Meus Documentos\\Documents\\Visual Studio 2022\\Projects\\TestesNHibernate\\readme.md",
               "RelativeToolTip": "readme.md",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-07-26T14:16:04.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T14:16:04.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "script.sql ",
               "DocumentMoniker": "E:\\Meus Documentos\\Documents\\Visual Studio 2022\\Projects\\TestesNHibernate\\script.sql",
               "RelativeDocumentMoniker": "script.sql",
@@ -62,7 +61,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Produto.cs",
               "DocumentMoniker": "E:\\Meus Documentos\\Documents\\Visual Studio 2022\\Projects\\TestesNHibernate\\Models\\Produto.cs",
               "RelativeDocumentMoniker": "Models\\Produto.cs",
@@ -70,12 +69,11 @@
               "RelativeToolTip": "Models\\Produto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T13:36:01.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T13:36:01.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Produto.hbm.xml",
               "DocumentMoniker": "E:\\Meus Documentos\\Documents\\Visual Studio 2022\\Projects\\TestesNHibernate\\Mappings\\Produto.hbm.xml",
               "RelativeDocumentMoniker": "Mappings\\Produto.hbm.xml",
@@ -83,18 +81,17 @@
               "RelativeToolTip": "Mappings\\Produto.hbm.xml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-07-26T13:33:57.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T13:33:57.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Meus Documentos\\Documents\\Visual Studio 2022\\Projects\\TestesNHibernate\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\Meus Documentos\\Documents\\Visual Studio 2022\\Projects\\TestesNHibernate\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAgwCkAAAAAAAAA",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAgwGgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T13:16:34.873Z",
               "EditorCaption": ""
