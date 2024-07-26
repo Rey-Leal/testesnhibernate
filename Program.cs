@@ -33,25 +33,36 @@ namespace TestesNHibernate
             int codigoBusca;
             string campoBusca;
 
-
             using (var session = sessionFactory.OpenSession())
             {
                 //CREATE
                 using (ITransaction transaction = session.BeginTransaction())
                 {
-                    session.Save(new Produto { nome = "Arroz", preco = 25.56, quantidade = 1 });
+                    session.Save(new Produto { nome = "Grão", preco = 25.56, quantidade = 1 });
                     session.Save(new Produto { nome = "Feijão", preco = 12.90, quantidade = 3 });
                     session.Save(new Produto { nome = "Café", preco = 16.33, quantidade = 4 });
                     session.Save(new Produto { nome = "Leite", preco = 4.99, quantidade = 7 });
+
+                    session.Save(new Usuario { nome = "Rey", senha = "D2E6A94B8DAB5A9EBA64F71294EAF59D", dataCadastro = DateTime.Now });
+                    session.Save(new Usuario { nome = "Ana", senha = "0D5CC8A8A6A9F85F0BAE5EBA92F1959E", dataCadastro = DateTime.Now });
+                    session.Save(new Usuario { nome = "João", senha = "EC50A6C5EBFA8D3FF2BBA645F60A1B39", dataCadastro = DateTime.Now });
+                    session.Save(new Usuario { nome = "Maria", senha = "A1A09D5BFDFFC3C2B7A0A5914C30D842", dataCadastro = DateTime.Now });
+
                     transaction.Commit();
                 }
 
                 //READ ALL
-                Console.WriteLine("Todos registros");
+                Console.WriteLine("Todos produtos");
                 var produtos = session.Query<Produto>().ToList();
                 foreach (var p in produtos.ToList())
                 {
                     Console.WriteLine($"{p.id}\t{p.nome}\t{p.preco}\t{p.quantidade}");
+                }
+                Console.WriteLine("Todos usuários");
+                var usuarios = session.Query<Usuario>().ToList();
+                foreach (var u in usuarios.ToList())
+                {
+                    Console.WriteLine($"{u.id}\t{u.nome}\t{u.senha}\t{u.dataCadastro}");
                 }
 
                 //READ ONE
@@ -89,8 +100,8 @@ namespace TestesNHibernate
 
                     if (produto != null)
                     {
-                        produto.nome = "Macarrão";
-                        produto.preco = 9.99;
+                        produto.nome = "Arroz";
+                        produto.preco = 29.99;
                         produto.quantidade = 50;
 
                         session.Update(produto);
@@ -119,6 +130,7 @@ namespace TestesNHibernate
                         Console.WriteLine($"Produto {codigoBusca} não encontrado.");
                     }
                 }
+
                 session.Close();
                 Console.ReadLine();
             }
