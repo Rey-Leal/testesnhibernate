@@ -11,4 +11,5 @@ Console aplication efetuando CRUD dos dados em uma base SQL através do uso do F
 * SQL Server
 * Console Application
 
-## Build Action do arquivo hbm.xml deve ser Embedded Resource
+## Observações
+O build Action do arquivo hbm.xml deve ser Embedded Resource
