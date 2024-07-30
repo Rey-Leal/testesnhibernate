@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Reflection;
+using TestesNHibernate.Models;
+using TestesNHibernate.Database;
+using NHibernate;
 using NHibernate.Cfg;
 using NHibernate.Dialect;
 using NHibernate.Driver;
-using System.Reflection;
-using TestesNHibernate.Models;
-using NHibernate;
 using NHibernate.Criterion;
 
 namespace TestesNHibernate
@@ -17,18 +18,8 @@ namespace TestesNHibernate
     {
         static void Main(string[] args)
         {
-            //Conexao
-            string connStr = "Data Source=REINALDO-PC\\SQLEXPRESS;Initial Catalog=Testes;User Id=;Password=;";
-            var config = new Configuration();
-            config.DataBaseIntegration(d =>
-            {
-                d.ConnectionString = connStr;
-                d.Dialect<MsSql2012Dialect>();
-                d.Driver<SqlClientDriver>();
-            });
-
-            config.AddAssembly(Assembly.GetExecutingAssembly());
-            var sessionFactory = config.BuildSessionFactory();
+            //Conexao            
+            var sessionFactory = Conexao.ConectarSessionFactory();
 
             Produto produto = new Produto();
             int codigoBusca;
