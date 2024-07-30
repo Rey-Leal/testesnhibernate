@@ -12,7 +12,7 @@ CREATE TABLE Usuario
 (
 	id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
 	nome VARCHAR(50),
-	senha VARCHAR(32),
+	senha VARCHAR(30),
 	dataCadastro DATETIME
 )
 

@@ -73,16 +73,16 @@ namespace TestesNHibernate
                     session.Save(new Produto { nome = "Batata", preco = 3.00, quantidade = 5 });
                     session.Save(new Produto { nome = "Banana", preco = 4.00, quantidade = 6 });
 
-                    session.Save(new Usuario { nome = "Lucas", senha = "1A3B5C7D9E0F1A2B3C4D5E6F7A8B9C0D", dataCadastro = new DateTime(2015, 4, 15) });
-                    session.Save(new Usuario { nome = "Julia", senha = "0F1A2B3C4D5E6F7A8B9C0D1A2B3C4D5E", dataCadastro = new DateTime(2012, 6, 27) });
-                    session.Save(new Usuario { nome = "Carlos", senha = "9E8F7D6C5B4A3E2F1D0C9B8A7E6D5C4B", dataCadastro = new DateTime(2017, 3, 9) });
-                    session.Save(new Usuario { nome = "Sofia", senha = "2F3E4D5C6B7A8E9F0C1D2B3A4C5D6E7F", dataCadastro = new DateTime(2020, 1, 23) });
-                    session.Save(new Usuario { nome = "Pedro", senha = "4E5F6A7B8C9D0E1F2A3B4C5D6E7F8G9H", dataCadastro = new DateTime(2011, 8, 14) });
-                    session.Save(new Usuario { nome = "Laura", senha = "7F8E9D0C1A2B3C4D5E6F7G8H9I0J1K2L", dataCadastro = new DateTime(2019, 1, 5) });
-                    session.Save(new Usuario { nome = "Mateus", senha = "0C1D2E3F4A5B6C7D8E9F0A1B2C3D4E5F", dataCadastro = new DateTime(2016, 2, 11) });
-                    session.Save(new Usuario { nome = "Fernanda", senha = "3A4B5C6D7E8F9G0H1I2J3K4L5M6N7O8P", dataCadastro = new DateTime(2018, 5, 19) });
-                    session.Save(new Usuario { nome = "Ricardo", senha = "6C7D8E9F0A1B2C3D4E5F6G7H8I9J0K1L", dataCadastro = new DateTime(2021, 9, 1) });
-                    session.Save(new Usuario { nome = "Beatriz", senha = "9F0A1B2C3D4E5F6G7H8I9J0K1L2M3N4O", dataCadastro = new DateTime(2013, 7, 18) });
+                    session.Save(new Usuario { nome = "Lucas", senha = "1A3B5C7D9E0F1A2B3C4D5E6F7A8B9C", dataCadastro = new DateTime(2015, 4, 15) });
+                    session.Save(new Usuario { nome = "Julia", senha = "0F1A2B3C4D5E6F7A8B9C0D1A2B3C4D", dataCadastro = new DateTime(2012, 6, 27) });
+                    session.Save(new Usuario { nome = "Carlos", senha = "9E8F7D6C5B4A3E2F1D0C9B8A7E6D5C", dataCadastro = new DateTime(2017, 3, 9) });
+                    session.Save(new Usuario { nome = "Sofia", senha = "2F3E4D5C6B7A8E9F0C1D2B3A4C5D6E", dataCadastro = new DateTime(2020, 1, 23) });
+                    session.Save(new Usuario { nome = "Pedro", senha = "4E5F6A7B8C9D0E1F2A3B4C5D6E7F8G", dataCadastro = new DateTime(2011, 8, 14) });
+                    session.Save(new Usuario { nome = "Laura", senha = "7F8E9D0C1A2B3C4D5E6F7G8H9I0J1K", dataCadastro = new DateTime(2019, 1, 5) });
+                    session.Save(new Usuario { nome = "Mateus", senha = "0C1D2E3F4A5B6C7D8E9F0A1B2C3D4E", dataCadastro = new DateTime(2016, 2, 11) });
+                    session.Save(new Usuario { nome = "Fabia", senha = "3A4B5C6D7E8F9G0H1I2J3K4L5M6N7O", dataCadastro = new DateTime(2018, 5, 19) });
+                    session.Save(new Usuario { nome = "Ricardo", senha = "6C7D8E9F0A1B2C3D4E5F6G7H8I9J0K", dataCadastro = new DateTime(2021, 9, 1) });
+                    session.Save(new Usuario { nome = "Beatriz", senha = "9F0A1B2C3D4E5F6G7H8I9J0K1L2M3N", dataCadastro = new DateTime(2013, 7, 18) });
 
 
                     transaction.Commit();
