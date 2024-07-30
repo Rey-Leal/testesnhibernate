@@ -153,44 +153,44 @@ namespace TestesNHibernate
                 }
 
                 //UPDATE
-                //using (ITransaction transaction = session.BeginTransaction())
-                //{
-                //    codigoBusca = 1;
-                //    produto = session.Get<Produto>(codigoBusca);
+                using (ITransaction transaction = session.BeginTransaction())
+                {
+                    codigoBusca = 1;
+                    produto = session.Get<Produto>(codigoBusca);
 
-                //    if (produto != null)
-                //    {
-                //        produto.nome = "Arroz";
-                //        produto.preco = 29.99;
-                //        produto.quantidade = 50;
+                    if (produto != null)
+                    {
+                        produto.nome = "Arroz";
+                        produto.preco = 29.99;
+                        produto.quantidade = 50;
 
-                //        session.Update(produto);
-                //        transaction.Commit();
-                //        Console.WriteLine($"Produto {codigoBusca} atualizado com sucesso!");
-                //    }
-                //    else
-                //    {
-                //        Console.WriteLine($"Produto {codigoBusca} não encontrado.");
-                //    }
-                //}
+                        session.Update(produto);
+                        transaction.Commit();
+                        Console.WriteLine($"Produto {codigoBusca} atualizado com sucesso!");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Produto {codigoBusca} não encontrado.");
+                    }
+                }
 
                 //DELETE
-                //using (ITransaction transaction = session.BeginTransaction())
-                //{
-                //    codigoBusca = 2;
-                //    produto = session.Get<Produto>(codigoBusca);
+                using (ITransaction transaction = session.BeginTransaction())
+                {
+                    codigoBusca = 2;
+                    produto = session.Get<Produto>(codigoBusca);
 
-                //    if (produto != null)
-                //    {
-                //        session.Delete(produto);
-                //        transaction.Commit();
-                //        Console.WriteLine($"Produto {codigoBusca} deletado!");
-                //    }
-                //    else
-                //    {
-                //        Console.WriteLine($"Produto {codigoBusca} não encontrado.");
-                //    }
-                //}
+                    if (produto != null)
+                    {
+                        session.Delete(produto);
+                        transaction.Commit();
+                        Console.WriteLine($"Produto {codigoBusca} deletado!");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Produto {codigoBusca} não encontrado.");
+                    }
+                }
 
                 session.Close();
                 Console.ReadLine();
