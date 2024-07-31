@@ -17,4 +17,3 @@ namespace TestesNHibernate.Models
         public virtual int quantidade { get; set; }
     }
 }
-
