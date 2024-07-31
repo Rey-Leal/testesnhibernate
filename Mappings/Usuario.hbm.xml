@@ -6,6 +6,7 @@
     </id>
     <property name="nome"/>
     <property name="senha"/>
+    <property name="email"/>
     <property name="dataCadastro"/>
   </class>
 </hibernate-mapping>

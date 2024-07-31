@@ -4,7 +4,10 @@
     <id name ="id">
       <generator class="native"/>
     </id>
+    <property name="grupo"/>
     <property name="nome"/>
+    <property name="especificacao"/>
+    <property name="unidade"/>
     <property name="preco"/>
     <property name="quantidade"/>
   </class>

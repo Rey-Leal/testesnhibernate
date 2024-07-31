@@ -11,6 +11,7 @@ namespace TestesNHibernate.Models
         public virtual int id { get; set; }
         public virtual string nome { get; set; }
         public virtual string senha { get; set; }
+        public virtual string email { get; set; }
         public virtual DateTime dataCadastro { get; set; }
     }
 }
