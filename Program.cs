@@ -169,7 +169,7 @@ namespace TestesNHibernate
                 //DELETE
                 using (ITransaction transaction = session.BeginTransaction())
                 {
-                    codigoBusca = 2;
+                    codigoBusca = 99;
                     produto = session.Get<Produto>(codigoBusca);
 
                     if (produto != null)
